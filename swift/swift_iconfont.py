@@ -80,11 +80,11 @@ def make_swift(path_output, classname, arr, pod_key):
     first = arr[0]
     # 头部
     swift = """
-    //更多代码自动化可了解 :https://github.com/liucaide/CD/tree/master/PyToSwift .
+    //更多代码自动化可了解 :https://github.com/liucaide/SapSapSeoi .
     
     import Foundation
     import UIKit
-    import CD
+    import CaamDau
     
     public enum %s {
         class Help {}
@@ -103,7 +103,7 @@ def make_swift(path_output, classname, arr, pod_key):
     swift += """
     extension %s:CD_IconFontProtocol{
         public var font:UIFont {
-            return UIFont.iconFont(name: "%s", size: self.size, forClass: %s.Help.self, from: "%s")
+            return UIFont.iconFont("%s", size: self.size, forClass: %s.Help.self, from: "%s")
         }
         """ % (classname, first['font'], classname,  pod_key)
 

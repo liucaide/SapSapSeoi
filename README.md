@@ -14,12 +14,12 @@ $ python swift_assets.py
 $ python swift_iconfont.py
 ```
 
-- [基础配置资源管理类代码自动化](https://github.com/liucaide/SapSapSeoi/blob/master/swift/swift_config.py)
+~~- [基础配置资源管理类代码自动化](https://github.com/liucaide/SapSapSeoi/blob/master/swift/swift_config.py)~~
 ```ruby
 $ python swift_config.py
 ```
 
-- [字符串本地化管理类代码自动化](https://github.com/liucaide/SapSapSeoi/blob/master/swift/swift_localization.py)
+~~- [字符串本地化管理类代码自动化](https://github.com/liucaide/SapSapSeoi/blob/master/swift/swift_localization.py)~~
 ```ruby
 $ python swift_localization.py
 ```
